@@ -1,0 +1,47 @@
+img {
+  margin: 0 auto;
+  display: block;
+  margin-top: 50px;
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.3);
+}
+#main{
+  width:897px;
+}
+body {
+  background-color: #f0f0f0;
+}
+a{
+	color:inherit;
+	text-decoration: none;
+}
+a:hover{
+	color: palevioletred;
+	text-decoration: none;
+}
+#side{
+  font-family: Compacta;
+  position: absolute;
+  top: 70px;
+  left: 643px;
+  font-size: 70px;
+  writing-mode: vertical-rl;
+  letter-spacing: 2px;
+  color: #22191A;
+}
+#bottom {
+   font-family: Attractive;
+  position: absolute;
+  top: 1230px;
+  left: 30px;
+  font-size: 22.5px;
+  letter-spacing: 2px;
+  color: white;
+}
+@font-face {
+  font-family: "Compacta";
+  src: url("compacta.ttf");
+}
+@font-face {
+  font-family: "Attractive";
+  src: url("Attractive-Regular.otf");
+}
