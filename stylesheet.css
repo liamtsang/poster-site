@@ -37,10 +37,8 @@ a:hover{
   letter-spacing: 2px;
   color: white;
 }
-@font-face {
-  font-family: "Compacta";
-  src: url("compacta.ttf");
-}
+@import url(//db.onlinewebfonts.com/c/f75f1ffd4ebcd17c0ee5207e1016cbdb?family=Compacta);
+@font-face {font-family: "Compacta"; src: url("//db.onlinewebfonts.com/t/f75f1ffd4ebcd17c0ee5207e1016cbdb.eot"); src: url("//db.onlinewebfonts.com/t/f75f1ffd4ebcd17c0ee5207e1016cbdb.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f75f1ffd4ebcd17c0ee5207e1016cbdb.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f75f1ffd4ebcd17c0ee5207e1016cbdb.woff") format("woff"), url("//db.onlinewebfonts.com/t/f75f1ffd4ebcd17c0ee5207e1016cbdb.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f75f1ffd4ebcd17c0ee5207e1016cbdb.svg#Compacta") format("svg"); }
 @font-face {
   font-family: "Attractive";
   src: url("Attractive-Regular.otf");
